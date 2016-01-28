@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/cayasso/event-store-mongo.png?branch=master)](https://travis-ci.org/cayasso/event-store-mongo)
 [![NPM version](https://badge.fury.io/js/event-store-mongo.png)](http://badge.fury.io/js/event-store-mongo)
 
-Mongo store for storing [event-store](https://github.com/cayasso/event-store) project entities.
+Mongo store for storing [event-store-entity](https://github.com/cayasso/event-store-entity) entities.
 
 ## Instalation
 
