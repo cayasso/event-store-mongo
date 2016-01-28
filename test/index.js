@@ -5,8 +5,6 @@ import MongoJS from 'mongojs';
 import { Entity } from 'event-store';
 import Store from '../lib/index';
 
-console.log(Store);
-
 const MONGO_URL = 'mongodb://127.0.0.1:27017/test-event-store';
 const db = new MongoJS(MONGO_URL);
 const config = { db };
@@ -70,11 +68,11 @@ describe('event-store', function() {
       }).should.throw("Entity class is required.");
     });
 
-    /*it('should throw error on providing invalid entity instance', function () {
+    it('should throw error on invalid entity type', function () {
       (function () {
         new TestStore({});
-      }).should.throw('Invalid entity instance provided.');
-    });*/
+      }).should.throw('The given entity is not a constructor.');
+    });
 
     it('should throw error if no mongodb connection string or object is provided', function () {
       (function () {
