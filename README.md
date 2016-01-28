@@ -14,8 +14,8 @@ $ npm install event-store
 ## Usage
 
 ```js
-const Entity from 'event-store-entity';
-const Store from 'event-store-mongo';
+import Entity from 'event-store-entity';
+import Store from 'event-store-mongo';
 
 class Order extends Entity {
   constructor(id) {
