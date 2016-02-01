@@ -1,6 +1,6 @@
 {
   "name": "event-store-mongo",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Mongo store for event-store project.",
   "author": {
     "name": "Jonathan Brumley",
