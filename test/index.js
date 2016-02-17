@@ -2,7 +2,7 @@
 
 import should from 'should';
 import MongoJS from 'mongojs';
-import { Entity } from 'event-store';
+import Entity from 'event-store-entity';
 import Store from '../lib/index';
 
 const MONGO_URL = 'mongodb://127.0.0.1:27017/test-event-store';
